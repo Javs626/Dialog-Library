@@ -45,12 +45,12 @@ function showConfirm()
 {
   var successCallback = function(){ alert("OK clicked") }
   var failureCallback = function(){ alert("Cancel clicked") }
-  dialog.show("confirm", "This is an confirmation", successCallback, failureCallback);
+  dialog.show("confirm", "This is a confirmation", successCallback, failureCallback);
 }
 
 function showPrompt()
 {
   var successCallback = function(){ alert(dialog.value) }
   var failureCallback = function(){}
-  dialog.show("prompt", "This is an prompt", successCallback, failureCallback);
+  dialog.show("prompt", "This is a prompt", successCallback, failureCallback);
 }

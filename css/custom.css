@@ -1,12 +1,11 @@
 body{
     margin: 0px;
-    background-color: grey;
+    background-color: #404040;
 }
 .title{
-  font-size: 64px;
   color:white;
   text-align: center;
-  font-family: sans-serif;
+  font-size: 64px;
 }
 .dialog
 {
@@ -65,4 +64,21 @@ body{
 }
 .buttonTitle{
   color:white;
+}
+
+.container{
+  height:100px;
+  width: 200px;
+  background-color: black;
+  text-align: center;
+  border-radius: 5px;
+}
+.dialogContainer{
+  border-radius: 10px;
+  background-color: #007fff;
+  width:300px;
+  height:auto;
+  margin:0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
