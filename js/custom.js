@@ -15,7 +15,7 @@ var dialog = {
           "</div>"+
         "</div>";
     $(".overlay input").focus()
-    $(".overlay .dialog").css({'opacity':1, 'margin-top': "200px",'color':'white', "background": "black"});
+    $(".overlay .dialog").css({'opacity':1, 'margin-top': "200px",'color':'grey', "background": "black"});
   },
   __success: null,
   __fail: null,
